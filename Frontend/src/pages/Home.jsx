@@ -44,13 +44,13 @@ const { user } = useAuth();
           Support for young moms through care, connection, and guidance.
         </p>
 
-        {
+        /* {
           !user && (
             <a href="/signup" className="inline-block bg-pink-600 hover:bg-pink-700 text-white font-bold py-3 px-8 rounded-full shadow-lg text-lg transition mb-2">
             Get Started
           </a>
           )
-        }
+        } */
        
       </div>
 
