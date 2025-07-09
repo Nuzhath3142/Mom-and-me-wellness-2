@@ -203,7 +203,7 @@ function Pregnancy() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-pink-200 via-pink-50 to-white font-roboto flex items-center justify-center py-8 px-2">
       <div className="w-full max-w-2xl mx-auto">
-        <h1 className="text-4xl font-extrabold text-center text-pink-700 mb-8 tracking-tight drop-shadow-lg">Pregnancy Information Form</h1>
+        <h1 className="text-4xl font-extrabold text-center text-pink-700 mb-8 tracking-tight drop-shadow-lg">Additional Information</h1>
         {(isProfileFilled && !formVisible) ? (
           <div>
             {/* Profile info */}
@@ -233,7 +233,7 @@ function Pregnancy() {
               const extra = getExtraInfo(profileData);
               return (
                 <div className="mt-8 p-8 bg-pink-50 rounded-2xl shadow-xl">
-                  <h2 className="text-2xl font-bold mb-4 text-pink-700 text-center">Pregnancy Guidance</h2>
+                  <h2 className="text-2xl font-bold mb-4 text-pink-700 text-center"> Guidance</h2>
                   {extra.ageTitle && (
                     <div className="mb-4">
                       <h3 className="text-xl font-bold text-pink-700 mb-1">{extra.ageTitle}</h3>
@@ -343,7 +343,7 @@ function Pregnancy() {
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="month" className="block text-gray-700 font-bold mb-2">Month of Pregnancy</label>
+              <label htmlFor="month" className="block text-gray-700 font-bold mb-2">Months</label>
               <select
                 id="month"
                 name="month"
